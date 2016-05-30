@@ -7,13 +7,13 @@
 
 	<form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
 		<ul>
-			<li><input type="text" name="fname"></li>
-			<li><input type="text" name="lname"></li>
-			<li><input type="email" name="mail"></li>
-			<li><input type="number" name="number"></li>
+			<li><input type="text" name="fname" placeholder="first name"></li>
+			<li><input type="text" name="lname" placeholder="last name"></li>
+			<li><input type="email" name="mail" placeholder="example@email.co.uk"></li>
+			<li><input type="number" name="number" placeholder="070000000000"></li>
 			<li><select>
+					<option>Basic </option>
 					<option>E-comerce</option>
-					<option>Basic</option>
 					<option>Blog</option>
 					<option>other</option>
 			</select></li>
