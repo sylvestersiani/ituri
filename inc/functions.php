@@ -1,5 +1,5 @@
 <?php
-	function clean($data){
+	function clean_data($data){
 		$data = trim($data);
 		$data = stripslashes($data);
 		$data = htmlspecialchars($data);

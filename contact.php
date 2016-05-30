@@ -12,7 +12,7 @@
 			<li><input type="text" name="lname" placeholder="last name"></li>
 			<li><input type="email" name="mail" placeholder="example@email.co.uk"></li>
 			<li><input type="number" name="number" placeholder="070000000000"></li>
-			<li><select>
+			<li><select name="service">
 					<option>Basic </option>
 					<option>E-comerce</option>
 					<option>Blog</option>
