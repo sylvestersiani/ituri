@@ -1,3 +1,4 @@
+<?php require_once 'inc/contact-ext.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,6 +19,7 @@
 					<option>other</option>
 			</select></li>
 		</ul>
+		<button type="submit">Get in touch</button>
 	</form>
 
 </body>
