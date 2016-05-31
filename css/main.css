@@ -1,5 +1,10 @@
 /* CSS Document */
 
+* {
+	margin:0;
+	padding:0;
+}
+
 .grid_1 { width: 15.33%; }
 .grid_2 { width: 32.26%; }
 .grid_3 { width: 49.2%; }

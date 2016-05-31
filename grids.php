@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 <title>Untitled Document</title>
-<link rel="stylesheet" href="css/grids.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+
 </head>
 
 <body>
