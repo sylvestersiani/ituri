@@ -12,6 +12,7 @@
 		<div id="get-in-touch">
 			<button id="contact-us">Get mixing</button>
 			<div id="contact-form">
+<<<<<<< Updated upstream
 				<form method="post" action="<?php $_SEVER['REQUEST_SELF']; ?>">
                 	
                     <label for="name">Name:</label><br />
@@ -34,6 +35,36 @@
 
 					<button type="submit">Get in touch</button><br />
 
+=======
+				<form method="post" action="<?php $_SERVER['REQUEST_SELF']; ?>">
+					<ol>
+						<li><label>name</label><input type="text" name="name"></li>
+						<li><label>email</label><input type="email" name="email"></li>
+						<li><label>phone</label><input type="phone" name="phone"></li>
+						<li>
+							<label>Website type</label>
+								<ul>
+									<li>
+										<span>Basic website</span>
+										<input type="radio" name="website-type" value="basic">
+									</li>
+									<li>
+										<span>Blog </span>
+										<input type="radio" name="website-type" value="blog">
+									</li>
+									<li>
+										<span>e-comemerce</span>
+										<input type="radio" name="website-type" value="e-com">
+									</li>
+									<li>
+										<span>customer design</span>
+										<input type="radio" name="website-type" value="other">
+									</li>
+								</ul>
+						</li>
+						<li><button type="submit">Get in touch</button></li>
+					</ol>
+>>>>>>> Stashed changes
 				</form>
 			</div>
 		</div>
