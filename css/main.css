@@ -76,7 +76,7 @@ section.landing > #about-pickandmix > .text {
 }
 
 section.landing > #call-for-action > #get-in-touch {
-	padding: 5em 0em;
+	padding: 5em 1em;
 }
 
 button#contact-us {
@@ -101,8 +101,9 @@ button#contact-us {
 	font-family:Arial;
 	font-size:23px;
 	font-weight:bold;
+	width:100%;
 	padding:8px 25px;
-	margin: 0 0 3em 0;
+	margin: 0;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #5b8a3c;
 }
@@ -125,7 +126,14 @@ button#contact-us:active {
 
 #contact-form {
 	width:100%;
-	max-width:500px;	
+}
+
+#contact-form > form {
+    max-width: auto;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;	
 }
 
 #contact-form > form > ol {
@@ -143,16 +151,18 @@ input[type="phone"],
 select {
 	background: rgba(255,255,255,0.1);
 	border: none;
+    border-radius: 4px;
 	font-size: 16px;
 	height: auto;
-	margin: 0;
 	outline: 0;
-	padding: 15px;
 	width: 100%;
 	background-color: #e8eeef;
 	color: #8a97a0;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-	margin-bottom: 30px;
+    padding: 12px 20px;
+    margin: 8px 0 30px 0;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 #contact-form > form > fieldset {
@@ -162,9 +172,13 @@ select {
 }
 
 #contact-form > form > select {
-	height: 32px;
-	padding: 6px;
-	margin-bottom: 30px;
+	height: 50px;
+    margin: 8px 0 30px 0;
 	border-radius: 2px;
 	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#contact-form > form > select > option {
+	background-color:white;
 }
