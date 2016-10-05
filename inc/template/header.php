@@ -1,3 +1,6 @@
+<?php
+	include('control/contact.php');
+ ?>
 <!DOCTYPE html> 
 <html lang="en">
 	<head>

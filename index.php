@@ -13,19 +13,22 @@
 			<button id="contact-us">Get mixing</button>
 			<div id="contact-form">
 				<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
+
+
+
                 	
                     <label for="name">Name:</label><br />
-                    <input type="name" id="name" name="name"><br />
+                    <input type="name" id="name" name="name" placeholder="<?php isset($name_error)? placeholder_text("Don't forget your name") : '' ;?>" value="<?php value_holder(isset($name)) ?>"><br />
 
                     <label for="email">Email:</label><br />
-                    <input type="email" id="email" name="email"><br />
+                    <input type="email" id="email" name="email"  placeholder="<?php isset($email_error)? placeholder_text("Don't forget your email") : '' ;?>" value="<?php value_holder(isset($email)) ?>"><br />
 
                     <label for="phone">Phone:</label><br />
-                    <input type="phone" id="phone" name="phone"><br />
+                    <input type="phone" id="phone" name="phone" placeholder="<?php isset($phone_error)? placeholder_text("Don't forget your phone") : '' ;?>" value="<?php value_holder(isset($phone)) ?>"><br />
 
 					<label>Website Type</label><br />
                     <select id="language" name="user_language">
-                    	<option value="type">Select Type</option>
+                    	<option value="type">Select style</option>
                     	<option value="basic">Basic Website</option>
                     	<option value="blog">Blog</option>
                     	<option value="e-commerce">E-Commerce</option>
