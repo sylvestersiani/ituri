@@ -23,7 +23,7 @@
                     <label for="phone">Phone:</label>
                     <input type="phone" id="phone" name="phone">
 
-					<label>Website Type</label>
+					<label>Website Type:</label>
                     <select id="language" name="user_language">
                     	<option value="type" disabled="disabled" selected="selected">Select Type</option>
                     	<option value="basic">Basic Website</option>
