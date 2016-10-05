@@ -13,7 +13,6 @@
 			<button id="contact-us">Get mixing</button>
 			<div id="contact-form">
 				<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
-                	
                     <label for="name">Name:</label>
                     <input type="name" id="name" name="name">
 
@@ -23,9 +22,10 @@
                     <label for="phone">Phone:</label>
                     <input type="phone" id="phone" name="phone">
 
-					<label>Website Type:</label>
+					<label>Website Type</label>
                     <select id="language" name="user_language">
                     	<option value="type" disabled="disabled" selected="selected">Select Type</option>
+                    	<option value="type">Select style</option>
                     	<option value="basic">Basic Website</option>
                     	<option value="blog">Blog</option>
                     	<option value="e-commerce">E-Commerce</option>

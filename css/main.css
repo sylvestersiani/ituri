@@ -24,6 +24,24 @@
 	/*background-color:rgba(153,0,0,1);*/
 }
 
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: red;
+  font-weight: bold;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  font-weight: bold;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: red;
+  font-weight: bold;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: red;
+  font-weight: bold;
+}
+
+
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.grid_1,

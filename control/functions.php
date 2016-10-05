@@ -6,4 +6,13 @@
 		return $data;
 	}
 
+	function placeholder_text($data){
+		echo  $data ;
+	}
+
+	function value_holder($data){
+		return isset($data)? print $data : '';
+	}
+
+
 ?>
