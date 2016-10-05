@@ -1,4 +1,4 @@
-<?php require_once('inc/header.php') ?>
+<?php require_once('inc/template/header.php') ?>
 
 <section class="landing grid_6">
 	<div id="about-pickandmix" class="grid_3">
@@ -12,7 +12,7 @@
 		<div id="get-in-touch">
 			<button id="contact-us">Get mixing</button>
 			<div id="contact-form">
-				<form method="post" action="<?php $_SEVER['PHP_SELF']; ?>">
+				<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
                 	
                     <label for="name">Name:</label><br />
                     <input type="name" id="name" name="name"><br />
@@ -38,4 +38,4 @@
 	</div>
 </section>
 
-<?php require_once('inc/footer.php');?>
+<?php require_once('inc/template/footer.php');?>
