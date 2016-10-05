@@ -10,7 +10,7 @@
 		<div id="get-in-touch">
 			<button id="contact-us">Get mixing</button>
 			<div id="contact-form">
-				<form method="post" action="<?php $_SEVER['REQUEST_SELF']; ?>">
+				<form method="post" action="<?php $_SERVER['SERVER_REQUEST_SELF']; ?>">
 					<ol>
 						<li><label>name</label><input type="text" name="name"></li>
 						<li><label>email</label><input type="email" name="email"></li>
