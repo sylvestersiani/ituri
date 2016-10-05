@@ -21,7 +21,7 @@
 	margin: 0 1.5% 1% 0;
 	float: left;
 	display: block;
-	background-color:rgba(153,0,0,1);
+	/*background-color:rgba(153,0,0,1);*/
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
@@ -34,4 +34,137 @@
 	.grid_6 {
 		width: 100%;
 	}
+}
+
+body {
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+	position: relative;
+	
+}
+
+body {
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+	position: relative;
+	
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color:gold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+
+header {
+	
+}
+
+section.landing > .grid_3 {
+	margin-right: 0;	
+}
+
+section.landing > #about-pickandmix > .text {
+	padding: 3em 5em;
+}
+
+section.landing > #call-for-action > #get-in-touch {
+	padding: 5em 0em;
+}
+
+button#contact-us {
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:8px 25px;
+	margin: 0 0 3em 0;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+
+button#contact-us:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+}
+
+button#contact-us:active {
+	position:relative;
+	top:1px;
+}
+
+#contact-form {
+	width:100%;
+	max-width:500px;	
+}
+
+#contact-form > form > ol {
+	list-style:none;	
+}
+
+#contact-form > form > label {
+	display: block;
+	font-weight:bold;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="phone"],
+select {
+	background: rgba(255,255,255,0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+#contact-form > form > fieldset {
+	margin-left:1em;
+	margin-bottom: 30px;
+	border: none;
+}
+
+#contact-form > form > select {
+	height: 32px;
+	padding: 6px;
+	margin-bottom: 30px;
+	border-radius: 2px;
+	cursor: pointer;
 }

@@ -9,7 +9,7 @@
 	</head>
 <body>
 
-<header>
+<header class="grid_6">
 	<nav>
 		<!--float left-->
 		<div id="company-logo">
