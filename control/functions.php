@@ -14,5 +14,11 @@
 		return isset($data)? print $data : '';
 	}
 
+	function selected_option($set_var, $input_name){
+	if (isset($set_var) && $set_var == $input_name) {
+		return 'selected="selected"';
+	}
+}
+
 
 ?>

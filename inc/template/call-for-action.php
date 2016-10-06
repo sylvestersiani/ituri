@@ -14,11 +14,11 @@
 
 					<label>Website Type</label>
                     <select id="language" name="website_type">
-                    	<option value="" selected="selected">Select Type</option>
-                    	<option value="basic">Basic Website</option>
-                    	<option value="blog">Blog</option>
-                    	<option value="e-commerce">E-Commerce</option>
-                    	<option value="other">Custom Design</option>
+                    	<option  value="" selected="selected">Select Type</option>
+                    	<option <?php isset($website_type)? print selected_option($website_type, 'basic'): '' ?> value="basic">Basic Website</option>
+                    	<option <?php isset($website_type)? print selected_option($website_type, 'blog'): '' ?> value="blog">Blog</option>
+                    	<option <?php isset($website_type)? print selected_option($website_type, 'e-commerce'): '' ?> value="e-commerce">E-Commerce</option>
+                    	<option <?php isset($website_type)? print selected_option($website_type, 'other'): '' ?> value="other">Custom Design</option>
 					</select>
 
 					<button type="submit">Get in touch</button>
