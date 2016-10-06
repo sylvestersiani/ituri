@@ -39,8 +39,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$body .= 'You can contact us on ' . $phone . "\r\n";
 			$body .= 'Best' . "\r\n";
 			$body .= $name;
-
-			if(mail($to, $subject, $body, $headers)){
+//mail($to, $subject, $body, $headers)
+			if(isset($body)){
 				$email_sent = true;
 			}else{
 				$email_sent = null; 
