@@ -9,7 +9,7 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="<?php isset($email_error)? print $email_error : ''; ?>" value="<?php value_holder(@$email); ?>">
 
-                    <label for="phone">Phone:</label>
+                    <label for="phone">Phone: <span>optional)</span></label>
                     <input type="phone" id="phone" name="phone" placeholder="<?php isset($phone_error)? placeholder_text('don\'t forget to enter your phone '): ''; ?>" value="<?php value_holder(@$phone); ?>">
 
 					<label>Website Type</label>

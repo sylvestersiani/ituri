@@ -6,7 +6,25 @@
 	<?php   
 			if (isset($_GET['home'])) {
 	?>
-			<h1> gallery</h1>
+			<div id="galler">
+				<ul>
+					<li>
+						<img src="#">
+					</li>
+					<li>
+						<img src="#">
+					</li>
+					<li>
+						<img src="#">
+					</li>
+					<li>
+						<img src="#">
+					</li>
+					<li>
+						<img src="#">
+					</li>
+				</ul>
+			</div>
 	<?php
 
 			}  else {
@@ -24,6 +42,13 @@
 							include 'inc/template/success.php';
 						}else{
 							include 'inc/template/call-for-action.php';
+								if(isset($form_authenticated)){
+									echo '<style> 
+										#contact-form{
+											display:block;
+										}
+										 </style>';
+							}
 						}
 					?>
 	<?php
