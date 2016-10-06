@@ -115,20 +115,26 @@ section.landing > #call-for-action > #get-in-touch {
 
 
 #success-outer{
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-	background-color: rgba(0,0,0,0.8);
-	z-index: 1000;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 500;
 }
 
 #success {
-	width: 80%;
-	height: 80%;
-	margin: auto;
-	background-color: white;
+    position: fixed;
+    width: 600px;
+    min-height: 389px;
+    background-color: white;
+    margin: 10% 0 0 25%;
+    padding: 0em;
+    z-index: 600;
 }
 
+#success > .content {
+    padding: 4em;
+}
 
 button#contact-us {
 	background-color:#77b55a;
