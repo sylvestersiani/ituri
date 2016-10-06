@@ -16,7 +16,7 @@
 		<!--float left-->
 		<div id="company-logo">
 			<ul>
-				<li><a href="#">Pick+Mix</a></li>
+				<li><a href="#">Selected Work</a></li>
 			</ul>
 		</div>
 		<!-- float right-->
