@@ -1,5 +1,6 @@
 <?php require_once('inc/template/header.php') ?>
 
+
 <section class="landing grid_6">
 	<div id="about-pickandmix" class="grid_3">
     	<div class="text">
@@ -8,34 +9,13 @@
             </p>
         </div>
 	</div>
-	<div id="call-for-action" class="grid_3">
-		<div id="get-in-touch">
-			<button id="contact-us">Get mixing</button>
-			<div id="contact-form">
-				<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
-                    <label for="name">Name:</label>
-                    <input type="name" id="name" name="name">
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-
-                    <label for="phone">Phone:</label>
-                    <input type="phone" id="phone" name="phone">
-
-					<label>Website Type</label>
-                    <select id="language" name="user_language">
-                    	<option value="type" disabled="disabled" selected="selected">Select Type</option>
-                    	<option value="type">Select style</option>
-                    	<option value="basic">Basic Website</option>
-                    	<option value="blog">Blog</option>
-                    	<option value="e-commerce">E-Commerce</option>
-                    	<option value="other">Custom Design</option>
-					</select>
-
-					<button type="submit">Get in touch</button>
-			</div>
-		</div>
-	</div>
+	<?php 
+		if (isset($email_sent)) {
+			include 'inc/template/success.php';
+		}else{
+			include 'inc/template/call-for-action.php';
+		}
+	?>
 </section>
 
 <?php require_once('inc/template/footer.php');?>

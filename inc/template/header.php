@@ -1,3 +1,5 @@
+<?php require 'control/contact.php';?>
+
 <!DOCTYPE html> 
 <html lang="en">
 	<head>
