@@ -1,6 +1,8 @@
-<div>
-	
-	<div id="success" class="grid_3">
-		<h1>Success</h1>
+
+	<div id="success-outer">
+		<div id="success">
+
+				<h1>Success</h1>
+		</div>
 	</div>
-</div>
+
