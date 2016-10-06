@@ -12,15 +12,13 @@
 <body>
 
 <header class="grid_6">
-	<nav>
-		<!--float left-->
+	<!-- <nav>
 		<div id="company-logo">
 			<ul>
 				<li><a href="#">Selected Work</a></li>
 			</ul>
 		</div>
-		<!-- float right-->
 		<div id="menu">
 		</div>
-	</nav>
+	</nav> -->
 </header>
