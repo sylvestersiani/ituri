@@ -43,7 +43,7 @@ input:-moz-placeholder { /* Firefox 18- */
 
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 980px) {
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -52,6 +52,10 @@ input:-moz-placeholder { /* Firefox 18- */
 	.grid_6 {
 		width: 100%;
 	}
+
+	#get-in-touch{margin:none;}
+
+
 }
 
 body {
@@ -67,6 +71,7 @@ h1.introduction{
 
 p{font-size: 26px;
 	line-height: 1.5em;
+
 }
 
 
@@ -94,7 +99,8 @@ section.landing > .grid_3 {
 }
 
 section.landing > #about-pickandmix > .text {
-	padding: 3em 5em;
+	padding: 3em 3em;
+	background-color: pink;
 }
 
 section.landing > #call-for-action > #get-in-touch {
@@ -105,7 +111,7 @@ section.landing > #call-for-action > #get-in-touch {
 
 
 #get-in-touch{
-	margin: 0 60px;
+	margin: 0 40px;
 }
 
 
